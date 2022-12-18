@@ -1,4 +1,4 @@
-# Curriculum Vitae <a href="https://tectonic-typesetting.github.io"><img src="https://img.shields.io/badge/TeX-Tectonic-blue"/></a><a href="https://taskfile.dev"><img src="https://img.shields.io/badge/go-Task-blue"/></a>
+# Curriculum Vitae <a href="https://tectonic-typesetting.github.io"><img src="https://img.shields.io/badge/TeX-Tectonic-blue?style=for-the-badge"/></a><a href="https://taskfile.dev"><img src="https://img.shields.io/badge/go-Task-blue?style=for-the-badge&logo=task"/></a>
 
 ## Description
 
