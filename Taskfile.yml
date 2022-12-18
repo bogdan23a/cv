@@ -1,0 +1,12 @@
+version: 3
+
+tasks:
+  compile:
+    desc: Compile the PDF
+    cmds:
+      - tectonic -X build --keep-intermediates --keep-logs
+  
+  clean:
+    desc: Remove logs and bad compilations
+    cmds:
+      - rm -rf build
