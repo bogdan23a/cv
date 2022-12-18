@@ -13,3 +13,7 @@ Keep my CV up to date on S3.
 * Create the PDF with `task compile`
 * Upload to S3 with `task upload`
 * Cleanup debris with `task clean`
+
+## Improvements
+
+* Github Action to upload to S3 on every master push
