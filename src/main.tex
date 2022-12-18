@@ -1,1 +1,60 @@
-Hello, world.
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+%\photo[rectangle,noedge,right]{picture.jpg}  
+\name{Bogdan}{Gherasim}
+\position{\ } 
+
+\position{\ }
+
+\mobile{(+44) 754 494 2100}
+\email{gherasimb.me@gmail.com}
+%\birth{199x}
+\homepage{gherasim.co.uk}
+\github{bogdan23a}
+\linkedin{gherasimbogdanro}
+%\gitlab{gitlab-id}
+%\stackoverflow{SO-id}{SO-name}
+%\twitter{@twit}
+%\skype{skype-id}
+%\reddit{reddit-id}
+%\extrainfo{extra informations}
+% \location{xxxxxxx, City, Country}
+%\faOrcid
+%\textcolor{Green}{\faResearchgate}
+
+
+%------------------------------------------------
+\usepackage{CJK}                     %use chinsese
+%------------------------------------------------
+
+
+%-------------------------------------------------------------------------------
+
+
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[C]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+{}%{\today}
+{}%Résumé
+{}%{}
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+\input{content/experience.tex}
+\input{content/education.tex}
+\input{content/projects.tex}
+\input{content/skills.tex}
+%-------------------------------------------------------------------------------
+\end{document}

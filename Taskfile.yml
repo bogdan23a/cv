@@ -10,3 +10,8 @@ tasks:
     desc: Remove logs and bad compilations
     cmds:
       - rm -rf build
+  
+  upload:
+    desc: Upload the PDF to S3
+    cmds:
+      - aws s3api put-object --bucket gherasim --key cv.pdf --body build/cv/cv.pdf --content-type application/pdf --profile gherasim
