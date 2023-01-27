@@ -15,3 +15,15 @@ tasks:
     desc: Upload the PDF to S3
     cmds:
       - aws s3api put-object --bucket gherasim --key cv.pdf --body build/cv/cv.pdf --content-type application/pdf --profile gherasim
+
+  bogdan:
+    desc: Compile the CV for Bogdan
+    cmds:
+      - tectonic -X build --keep-intermediates --keep-logs
+      - aws s3api put-object --bucket gherasim --key bogdan/cv.pdf --body build/bogdan/bogdan.pdf --content-type application/pdf --profile gherasim
+
+  radu:
+    desc: Compile the CV for Radu
+    cmds:
+      - tectonic -X compile src/gherasim/radu/main.tex
+      - aws s3api put-object --bucket gherasim --key radu/cv.pdf --body build/radu/radu.pdf -content-type application/pdf --profile gherasim

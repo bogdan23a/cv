@@ -1,10 +1,17 @@
 [doc]
-name = 'cv'
+name = 'bogdan'
 bundle = 'https://data1.fullyjustified.net/tlextras-2022.0r0.tar'
 
 [[output]]
-name = 'cv'
+name = 'bogdan'
 type = 'pdf'
 preamble = 'preamble'
 postamble = "postamble"
-index = 'main'
+index = 'bogdan'
+
+[[output]]
+name = 'radu'
+type = 'pdf'
+preamble = 'preamble'
+postamble = "postamble"
+index = 'radu'

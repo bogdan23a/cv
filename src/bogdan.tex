@@ -1,0 +1,70 @@
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+%\photo[rectangle,noedge,right]{picture.jpg}  
+\name{Bogdan}{Gherasim}
+\position{\ } 
+
+\position{\ }
+
+\mobile{(+44) 754 494 2100}
+\email{bogdan@gherasim.co.uk}
+%\birth{199x}
+\homepage{gherasim.co.uk}
+\github{bogdan23a}
+\linkedin{gherasimbogdanro}
+%\gitlab{gitlab-id}
+%\stackoverflow{SO-id}{SO-name}
+%\twitter{@twit}
+%\skype{skype-id}
+%\reddit{reddit-id}
+%\extrainfo{extra informations}
+% \location{xxxxxxx, City, Country}
+%\faOrcid
+%\textcolor{Green}{\faResearchgate}
+
+
+%------------------------------------------------
+\usepackage{CJK}                     %use chinsese
+%------------------------------------------------
+
+
+%-------------------------------------------------------------------------------
+
+
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[C]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+{}%{\today}
+{}%Résumé
+{}%{}
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+
+\begin{cventries}
+    \begin{minipage}[t]{1\textwidth} % The right column takes up 66% of the text width of the page
+        \begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+            \input{gherasim/bogdan/skills.tex}
+        \end{minipage}
+        \begin{minipage}[t]{0.66\textwidth} % The left column takes up 33% of the text width of the page
+            \input{gherasim/bogdan/experience-66.tex}
+        \end{minipage}
+    \end{minipage}
+    \input{gherasim/bogdan/experience.tex}
+    \input{gherasim/bogdan/education.tex}
+    \input{gherasim/bogdan/projects.tex}
+\end{cventries}
+
+\end{document}
