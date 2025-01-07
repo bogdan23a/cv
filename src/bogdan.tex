@@ -1,4 +1,4 @@
-%-------------------------------------------------------------------------------
+\usepackage{hyperref}%-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
@@ -9,7 +9,7 @@
 
 \position{\ }
 
-\mobile{(+44) 754 494 2100}
+\mobile{(+40) 771 054 162}
 \email{bogdan@gherasim.co.uk}
 %\birth{199x}
 \homepage{gherasim.co.uk}
@@ -27,7 +27,7 @@
 
 
 %------------------------------------------------
-\usepackage{CJK}                     %use chinsese
+%\usepackage{CJK}                     %use chinsese
 %------------------------------------------------
 
 
@@ -52,19 +52,15 @@
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-
-\begin{cventries}
-    \begin{minipage}[t]{1\textwidth} % The right column takes up 66% of the text width of the page
-        \begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
-            \input{gherasim/bogdan/skills.tex}
-        \end{minipage}
-        \begin{minipage}[t]{0.66\textwidth} % The left column takes up 33% of the text width of the page
-            \input{gherasim/bogdan/experience-66.tex}
-        \end{minipage}
-    \end{minipage}
-    \input{gherasim/bogdan/experience.tex}
-    \input{gherasim/bogdan/education.tex}
-    \input{gherasim/bogdan/projects.tex}
-\end{cventries}
+\begin{minipage}[t]{0.35\textwidth} % The left column takes up 33% of the text width of the page
+    \input{gherasim/bogdan/skills}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.625\textwidth} % The left column takes up 33% of the text width of the page
+    \input{gherasim/bogdan/experience-66}
+\end{minipage}
+\input{gherasim/bogdan/experience}
+\input{gherasim/bogdan/education}
+\input{gherasim/bogdan/projects}
 
 \end{document}
