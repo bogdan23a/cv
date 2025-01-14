@@ -9,9 +9,9 @@ preamble = 'preamble'
 postamble = "postamble"
 index = 'bogdan'
 
-[[output]]
-name = 'radu'
-type = 'pdf'
-preamble = 'preamble'
-postamble = "postamble"
-index = 'radu'
+#[[output]]
+#name = 'radu'
+#type = 'pdf'
+#preamble = 'preamble'
+#postamble = "postamble"
+#index = 'radu'

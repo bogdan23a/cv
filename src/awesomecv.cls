@@ -86,7 +86,9 @@
   pdftitle={},
   pdfauthor={},
   pdfsubject={},
-  pdfkeywords={}
+  pdfkeywords={},
+  colorlinks,
+  urlcolor=[RGB]{84, 149, 255}
 }
 % Solves issues Warning: File `cv.out' has changed
 \RequirePackage{bookmark}
